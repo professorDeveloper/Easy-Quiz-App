@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/drawable-v24/arrow.xml" value="0.2145" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/drawable-v24/logout.xml" value="0.1595" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/drawable-v24/quiz.xml" value="0.148" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/arrow_night.xml" value="0.2145" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/drawable/logo.xml" value="0.1595" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/layout-night/activity_about.xml" value="0.2988679352838745" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/layout-night/activity_final_result.xml" value="0.3098958333333333" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/layout-night/activity_geo_graph_and_liture.xml" value="0.2264151024877837" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/layout-night/activity_history.xml" value="0.3098958333333333" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/layout-night/activity_home.xml" value="0.3098958333333333" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/layout-night/activity_math_quiz.xml" value="0.2264151024877837" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/layout-night/item_history.xml" value="0.3098958333333333" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_about.xml" value="0.2988679352838745" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_final_result.xml" value="0.3098958333333333" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_flag_quiz.xml" value="0.2988679352838745" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_geo_graph_and_liture.xml" value="0.2264151024877837" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_history.xml" value="0.3098958333333333" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_home.xml" value="0.3098958333333333" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_math_quiz.xml" value="0.2264151024877837" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_math_quiz2.xml" value="0.3098958333333333" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_quiz_option.xml" value="0.2988679352838745" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activity_splash.xml" value="0.29583333333333334" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/layout/activty_exit.xml" value="0.2264151024877837" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/layout/item_history.xml" value="0.3098958333333333" />
+        <entry key="..\:/AndroidStudioProjects/QuizApp/app/src/main/res/layout/item_history_night.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

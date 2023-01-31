@@ -1,0 +1,134 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.QuizApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_med</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_image</item>
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/white</item>
+        <item name="android:windowSplashScreenAnimationDuration" tools:ignore="NewApi">1000</item>
+        <item name="colorPrimaryVariant">@color/blue_med</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="textInputStyle">@style/editTextLayoutStyle</item>
+
+    </style>
+
+    <style name="splashScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_image</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowSplashScreenAnimationDuration" tools:ignore="NewApi">1000</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginStart">4dp</item>
+    </style>
+
+    <style name="Button.Answer">
+        <item name="android:width">
+            40dp
+        </item>
+        <item name="android:height">
+            40dp
+        </item>
+        <item name="android:background">@drawable/bg_answer</item>
+    </style>
+
+    <style name="Button.Variant">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+
+        <item name="android:background">@drawable/bg_variant</item>
+    </style>
+    <!--    <style name="editTextStyle" parent="">-->
+    <!--        <item name="android:paddingStart">12dp</item>-->
+    <!--        <item name="android:textColorHint">@color/gray</item>-->
+    <!--&lt;!&ndash;        <item name="android:background">@drawable/</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;        <item name="android:layout_height">@dimen/editText_height</item>&ndash;&gt;-->
+    <!--        <item name="buttonStyle">?android:attr/borderlessButtonStyle</item>-->
+    <!--    </style>-->
+
+    <style name="editTextLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="boxBackgroundColor">@color/edit_text_bg</item>
+        <item name="boxCornerRadiusTopStart">@dimen/edit_text_corner_radius</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/edit_text_corner_radius</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/edit_text_corner_radius</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/edit_text_corner_radius</item>
+    </style>
+
+    <style name="MyAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/blue_med</item>
+    </style>
+
+    <style name="edtTextInputStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/blue_med</item>
+        <item name="hintTextColor">@color/blue_med</item>
+    </style>
+
+    <style name="btnStyle" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/blue_med</item>
+        <item name="cornerRadius">@dimen/btn_radius</item>
+        <item name="android:layout_height">@dimen/btn_height</item>
+    </style>
+
+    <style name="btnStyle_night" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/white</item>
+        <item name="cornerRadius">@dimen/btn_radius</item>
+        <item name="android:layout_height">@dimen/btn_height</item>
+    </style>
+
+    <style name="titleTextStyle">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="cardViewStyle">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="categoryHeadingTextStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_heading">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="text_value_heading">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/blue_med</item>
+    </style>
+
+    <style name="text_heading_night">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_value_heading_night">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_radio_button_answer">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="buttonTint">@color/blue_med</item>
+    </style>
+
+</resources>
