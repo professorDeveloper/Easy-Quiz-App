@@ -10,6 +10,7 @@ import com.azamovhudstc.quizapp.local_data.QuizPref
 class SplashScreen : AppCompatActivity() {
     private lateinit var quizPref: QuizPref
     override fun onCreate(savedInstanceState: Bundle?) {
+        installSplashScreen()
         super.onCreate(savedInstanceState)
         quizPref = QuizPref.getInstance()
         splashAndroid11()
